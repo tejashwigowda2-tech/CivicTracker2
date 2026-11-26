@@ -1,0 +1,23 @@
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+civictrack-deploy-bundle.zip
+backend/uploads/*
+!backend/uploads/.gitkeep
+!backend/uploads/demo_*.jpg
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+.netlify/
+
+# Environment
+.env
+backend/.env
+frontend/.env
+.DS_Store
